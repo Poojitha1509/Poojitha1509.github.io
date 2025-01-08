@@ -1,8 +1,9 @@
 
 html {
     scroll-behavior: smooth;
-    background-image: url('images/imagetest.jpg');
-    background-repeat: no-repeat;
+    
+    background-image: url('/Users/poojithapenta/Documents/portfolio/images/moroccan-flower-dark.png');
+    background-repeat: repeat;
     background-size: cover;
 }
 section {
@@ -12,6 +13,8 @@ section {
     align-items: center;
     text-align: center;
 }
+
+
 
 .navbar {
             overflow: hidden;
@@ -241,4 +244,139 @@ section {
     margin-bottom: 10px;
     color: #ddd;
     flex-direction: column;
+}
+
+
+/* RESPONSIVE DESIGN IMPROVEMENTS */
+
+/* General Settings */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mobile-first adjustments */
+@media only screen and (max-width: 768px) {
+
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .navbar a {
+        padding: 8px 12px;
+        font-size: 14px;
+        text-align: center;
+        width: auto;
+    }
+
+    .navbar button {
+        width: auto;
+        margin: 5px;
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .main {
+        margin-top: 80px;
+    }
+
+    .container_one, .container_two, .container_three, .container_five {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-picture {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 20px;
+    }
+
+    .introduction, .introduction2, .introduction3, .description {
+        max-width: 90%;
+        margin: 10px 0;
+        line-height: 1.5;
+        padding: 10px;
+    }
+
+    .uni-pic, .company-pic, .project-pic {
+        width: 60%;
+        height: auto;
+        max-width: 200px;
+        object-fit: contain;
+    }
+
+    .container_four {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .skill-item {
+        width: 100px;
+        padding: 10px;
+    }
+
+    .contact-text {
+        text-align: center;
+    }
+}
+
+/* Small Screens (less than 480px) */
+@media only screen and (max-width: 480px) {
+
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    .navbar a {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+
+    .navbar button {
+        width: auto;
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .resumebutton {
+        width: 120px;
+        font-size: small;
+    }
+
+    .container_four {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .skill-item i {
+        font-size: 50px;
+    }
+
+    h1, h2, h3, p {
+        font-size: smaller;
+        line-height: 1.5;
+    }
+
+    .description, .introduction3 {
+        padding: 15px;
+    }
+
+    .profile-picture {
+        width: 120px;
+        height: 120px;
+    }
+
+    .uni-pic, .company-pic {
+        width: 70%;
+        height: auto;
+        max-width: 150px;
+    }
 }
