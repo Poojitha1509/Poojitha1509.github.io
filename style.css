@@ -2,7 +2,7 @@
 html {
     scroll-behavior: smooth;
     
-    background-image: url('/Users/poojithapenta/Documents/portfolio/images/imagetest.jpg');
+    background-image: url('images/imagetest.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
