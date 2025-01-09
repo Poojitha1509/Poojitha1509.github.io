@@ -4,6 +4,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,39 +12,87 @@
 </head>
 <body>
 
+
     <div class="navbar">
-        <a href="#home">Home</a>
-        <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-        <a href="https://www.linkedin.com/in/poojithapenta" target="_blank" >
-            <button type="button" class="resumebutton"><strong><i class="fab fa-linkedin"></i> &nbsp;&nbsp; LinkedIn</strong></button> </a>
-    <a href="https://github.com/Poojitha1509" target="_blank" >
-            <button type="button" class="resumebutton"><strong><i class="fab fa-github"></i>&nbsp;&nbsp; GitHub</strong></button> </a>
-
+        <a href="#home" >
+            <i class="fas fa-user"></i> 
+            Home
+        </a>
+        <a href="#experience">
+            <i class="fas fa-briefcase"></i> 
+            Experience
+        </a>
+        <a href="#skills">
+            <i class="fas fa-tools"></i> 
+            Skills
+        </a>
+        <a href="#projects">
+            <i class="fas fa-project-diagram"></i> 
+            Projects
+        </a>
+        <a href="#contact">
+            <i class="fas fa-envelope"></i> 
+            Contact
+        </a>
     </div>
-
+    
     <!-- Home section -->
 
     <div class="main">
         <section id="home" class="home">
             <div class="container_one">
-                <img src="images/Portfolio-image.png" alt="Poojitha" class="profile-picture">
+                <div class="card">
+                <!-- Profile Image -->
+                <img src="images/new-profile.jpeg" alt="Poojitha" class="profile-picture">
+        
+                <!-- Introduction Section -->
                 <div class="introduction" style="color: white;">
-                    <h1> Hello!</h1>
-                    <p style="font-size: 20px;">This is Poojitha Penta , a current MS Computer Science Grad 👩‍🎓 at Univeristy of Massachusetts Amherst. My professional interests are deeply rooted in the fields of Machine Learning (ML) and Natural Language Processing (NLP). I possess a solid understanding of fundamental ML algorithms , including Support Vector Machines (SVM), Random Forest, Neural Networks etc. and I harbor a keen interest in the exploration and application of Large Language Models.</p>
+                    <h1 class="intro-title">Hello!</h1>
+                    <p class="intro-description">
+                        This is Poojitha Penta, a current MS Computer Science Grad 👩‍🎓 at University of Massachusetts Amherst. 
+                        My professional interests are deeply rooted in the fields of Machine Learning (ML) and 
+                        Natural Language Processing (NLP). I possess a solid understanding of fundamental ML algorithms, 
+                        including Support Vector Machines (SVM), Random Forest, and Neural Networks. I harbor a keen interest 
+                        in the exploration and application of Large Language Models.
+                    </p>
                     <br>
-                    <a href="https://drive.google.com/file/d/1xMhLhUMvuuUrBSt_zaIzWfr2Kq4tYbWC/view?usp=sharing" target="_blank" download="Your_Resume_Name.pdf">
-                        <button type="button" class="resumebutton"><strong>RESUME</strong></button> </a>
+                    <!-- Resume Button -->
+                    <a href="https://drive.google.com/file/d/150r4puJeePYTVOV6B2j63ztEJ-G7M6M8/view?usp=sharing" 
+                       target="_blank" download="Poojtha_Penta_Resume.pdf">
+                        <button type="button" class="resumebutton"><strong>View Resume</strong></button> 
+                    </a>
+
+                    <div class="social-icons">
+                    <!-- Github-->
+                    <a href="https://github.com/ppoojitha1509" target="_blank">
+                        <div class="icon github-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                    </a>
+                    <!--Linkeidn-->
+                    <a href="https://linkedin.com/in/poojithapenta" target="_blank">
+                        <div class="icon linkedin-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                    </a>
+
+                    <!-- Mail -->
+                    <a href="mailto:ppent@umass.edu" target="_blank">
+                        <div class="icon email-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                    </a>
+                </div>
+                </div>
                 </div>
             </div>
         </section>
+        
 
     <!-- Education section -->
 
     <section id="education" class="education">
-
+        <div class="card">
         <h2 style="color: white;"><u>EDUCATION</u></h2>
         <br>
         <div class="container_two">
@@ -53,7 +102,7 @@
                 <h3>MASTER OF SCIENCE IN COMPUTER SCIENCE  (SEP 2023- MAY 2025)</h3>
                 <p style="font-size: 20px;"><u>Coursework</u>: Machine Learning, Advanced Natural Language Processing, Information Retrieval, Systems for Data Science, Meth of Applied Statistics</p>
             </div>
-            <img src="images/umasslogo.png" alt="Poojitha" class="uni-pic">
+            <div><img src="images/umasslogo.png" alt="Poojitha" class="uni-pic"></div>
         </div> 
         
         <div class="container_two">
@@ -65,6 +114,7 @@
             </div>
             <img src="images/snistlogo.png" alt="Poojitha" class="uni-pic">
         </div> 
+        </div>
         
     </section>
 
@@ -72,7 +122,7 @@
     <!-- Experience section -->
 
     <section id="experience" class="experience">
-
+        <div class="card">
         <h2 style="color: white;"><u>EXPERIENCE</u></h2>
         <br>
         <div class="container_three">
@@ -134,12 +184,14 @@
                 </ul>
             </div>
         </div> 
+        </div>
     </section>
         
 
     <!-- skills section -->
 
     <section id="skills" class="skills">
+        <div class="card">
         <h2 style="color: white;"><u>SKILLS</u></h2>
         <br>
         <br>
@@ -232,11 +284,13 @@
                 <p>Linux</p>
             </div>
         </div>
+        </div>
     </section>
 
     <!-- Projects section -->
 
     <section id="projects" class="projects">
+        <div class="card">
         <h2 style="color: white;"><u>PROJECTS</u></h2>
         <br>
         <div class="container_five">
@@ -288,6 +342,7 @@
                 </ul>
             </div>
         </div> 
+        </div>
     </section>
 
 
