@@ -40,8 +40,8 @@
 
     <div class="main">
         <section id="home" class="home">
-            <div class="container_one">
-                <div class="card">
+            <div class="home_container">
+                <div class="home_card">
                 <!-- Profile Image -->
                 <img src="images/new-profile.jpeg" alt="Poojitha" class="profile-picture">
         
@@ -64,7 +64,7 @@
 
                     <div class="social-icons">
                     <!-- Github-->
-                    <a href="https://github.com/ppoojitha1509" target="_blank">
+                    <a href="https://github.com/Poojitha1509" target="_blank">
                         <div class="icon github-icon">
                             <i class="fab fa-github"></i>
                         </div>
@@ -77,7 +77,7 @@
                     </a>
 
                     <!-- Mail -->
-                    <a href="mailto:ppent@umass.edu" target="_blank">
+                    <a href="mailto:ppenta@umass.edu" target="_blank">
                         <div class="icon email-icon">
                             <i class="fas fa-envelope"></i>
                         </div>
@@ -90,122 +90,161 @@
         
 
     <!-- Education section -->
-
     <section id="education" class="education">
-        <div class="card">
-        <h2 style="color: white;"><u>EDUCATION</u></h2>
+        <h2 style="color: white; text-align: center;"><u>EDUCATION</u></h2>
         <br>
-        <div class="container_two">
-            
-            <div class="introduction2" style="color: white;">
-                <h1><u>UNIVERSITY OF MASSACHUSETTS - AMHERST</u> </h1>
-                <h3>MASTER OF SCIENCE IN COMPUTER SCIENCE  (SEP 2023- MAY 2025)</h3>
-                <p style="font-size: 20px;"><u>Coursework</u>: Machine Learning, Advanced Natural Language Processing, Information Retrieval, Systems for Data Science, Meth of Applied Statistics</p>
+    
+        <div class="education-container">
+            <!-- Umass -->
+            <div class="education-card">
+                <img src="images/umasslogo.png" alt="UMass Logo" class="uni-pic">
+                <div class="education-content">
+                    <h1>UNIVERSITY OF MASSACHUSETTS - AMHERST</h1>
+                    <h3>MASTER OF SCIENCE IN COMPUTER SCIENCE (SEP 2023 - MAY 2025)</h3>
+                    <h3><u>Coursework</u>: Machine Learning, Advanced Natural Language Processing, Information Retrieval, Systems for Data Science, Methods of Applied Statistics, Privacy & Security in GenAI</h3>
+                </div>
             </div>
-            <div><img src="images/umasslogo.png" alt="Poojitha" class="uni-pic"></div>
-        </div> 
-        
-        <div class="container_two">
-            
-            <div class="introduction2" style="color: white;">
-                <h1><u>SREENIDHI INSTITUTE OF SCIENCE AND TECHNOLOGY</u> </h1>
-                <h3>BACHELOR OF TECHNOLOGY IN COMPUTER SCIENCE & ENGINEERING (2018-2022)</h3>
-                <p style="font-size: 20px;"><u>Coursework</u>: Data Structures, Design and Analysis of Algorithms, Operating Systems, Introduction to Data Science, Database Management Systems,  Data Mining</p>
+    
+            <!-- SNIST -->
+            <div class="education-card">
+                <img src="images/snistlogo.png" alt="SNIST Logo" class="uni-pic">
+                <div class="education-content">
+                    <h1>SREENIDHI INSTITUTE OF SCIENCE AND TECHNOLOGY</h1>
+                    <h3>BACHELOR OF TECHNOLOGY IN COMPUTER SCIENCE & ENGINEERING (2018-2022)</h3>
+                    <h3><u>Coursework</u>: Data Structures, Design and Analysis of Algorithms, Operating Systems, Introduction to Data Science, Database Management Systems, Data Mining</h3>
+                </div>
             </div>
-            <img src="images/snistlogo.png" alt="Poojitha" class="uni-pic">
-        </div> 
         </div>
-        
     </section>
+    
 
 
     <!-- Experience section -->
 
     <section id="experience" class="experience">
-        <div class="card">
         <h2 style="color: white;"><u>EXPERIENCE</u></h2>
         <br>
-        <div class="container_three">
-            <img src="images/umasslogo.png" alt="UMASS" class="company-pic"  width="192" height="192">
-            <div class="introduction3" style="color: white;">
-                <h1><u>Graduate Student Researcher</u> </h1>
-                <h3>UMass BioNLP Lab        (Feb 2024- Present)</h3>
-                <h3>&#x1F4CD; Amherst, MA, USA</h3>
-                <h3> <u>Responsibilities</u>:</h3>
-                <ul style="font-size: 18px;">
-                    <li>Working under Prof. Hong Yu to develop a robust system capable of understanding , processing long biomedical texts.</li>
-                    <li>Performing instruction tuning on 10 medical datasets & leveraging LongLoRA to enhance the adaptation of LLMs (LLaMA 1&2, 7B & 13B version) to the created BioLongInstruct data.</li>
-                </ul>
-            </div>
-           
-        </div> 
-        
-        <div class="container_three">
-            <img src="images/qwikskills.png" alt="QWIKSKILLS" class="company-pic"  width="192" height="192">
-            <div class="introduction3" style="color: white;">
-                <h1><u>Azure Cloud Intern</u> </h1>
-                <h3>Qwikskills      (Feb 2023-Jul 2023)</h3>
-                <h3>&#x1F4CD; India</h3>
-                <h3> <u>Responsibilities</u>:</h3>
-                <ul style="font-size: 18px;">
-                    <li>Assisted in building hands-on labs using Azure Services - Cognitive Services, Azure Databricks , Virtual Machine, App services.</li>
-                    <li>Enhanced the security of infrastructure by embedding custom roles, policies for minimizing the use of SKU configurations.</li>
-                </ul>
-            </div>
-        </div> 
-        
-        <div class="container_three">
-            <img src="images/at&tnew.png" alt="at&t" class="company-pic"  width="192" height="192">
-            <div class="introduction3" style="color: white;">
-                <h1><u>Technical Intern</u> </h1>
-                <h3>AT&T        (Mar 2022-Sep 2022)</h3>
-                <h3>&#x1F4CD; Hyderabad, India</h3>
-                <h3> <u>Responsibilities</u>:</h3>
-                <ul style="font-size: 18px;">
-                    <li>Worked on the development of an automated system for monitoring Linux based applications and Virtual Machines.</li>
-                    <li>Managed the collection of heartbeats from applications and delivered to Azure Monitor using Telemetry Client SDK.</li>
-                    <li>Handled delivery of json payloads to the respective application insights as traces and scheduled customized alert emails.</li>
-                    <li>Recorded the traces obtained from all the applications on workbooks and analyzed them through graphs and charts.</li>
-                    <li>Developed a REST API interface for telephone ownership lookup using HMAC-SHA256, base64 for authorization, encoding respectively.</li>
-                </ul>
-            </div>
-        </div> 
+        <div class="education_container">
 
-        <div class="container_three">
-            <img src="images/logo.jpeg" alt="techciti" class="company-pic" width="20%" height="200%" style="border-radius: 30px;">
-            <div class="introduction3" style="color: white;">
-                <h1><u>Software Developer Intern</u> </h1>
-                <h3>TechCiti Technologies Private Limited        (May 2020-July 2020)</h3>
-                <h3>&#x1F4CD; India</h3>
-                <h3> <u>Responsibilities</u>:</h3>
-                <ul style="font-size: 18px;">
-                    <li> Deployed a ML Portal named “EMR Data Analysis to Predict Various diseases” using Django framework.</li>
-                    <li>Engineered the prediction of heart disease, breast cancer, diabetes using Random Forest Classifier, Logistic Regression Algorithms and attained accuracies 91%, 92.7% and 94% respectively.</li>
-                </ul>
+        <!-- UMASS-->
+        <div class="experience-card">
+
+            <img src="images/umasslogo.png" alt="UMASS" class="company-pic">
+                <div class="experience-content" style="color: white;">
+                    <h1>Graduate Student Researcher </h1>
+                    <h4>UMass BioNLP Lab (Feb 2024- May 2024)</h4>
+                    <h3>&#x1F4CD; Amherst, MA, USA</h3>
+                    <h3> Responsibilities:</h3>
+                    <ul style="font-size: 18px;">
+                        <li>Worked on developing a robust system using Large Language Models (LLM) to efficiently process and comprehend
+                            extensive biomedical texts</li>
+                        <li>Performed instruction tuning on the curated BioLongInstruct dataset comprising 27,096 records and leveraged
+                            LongLoRA to enhance the adaptation of LLaMA 2-7B to the data.</li>
+                    </ul>
+                </div>
+                <div class="experience-tags">
+                    <span class="tag">Tranformers</span>
+                    <span class="tag">Large Language Models (LLMs) </span>
+                    <span class="tag">Fine-Tuning</span>
+                    <span class="tag">LongLORA</span>
+                    <span class="tag">Natural Language Processing (NLP)</span>
+                    <span class="tag">Hugging Face</span>
+                </div>
             </div>
-        </div> 
-        </div>
+
+        
+        <!--Qwikskills-->
+        <div class="experience-card">
+
+            <img src="images/qwikskills.png" alt="Qwikskills" class="company-pic" >
+                <div class="experience-content" style="color: white;">
+                    <h1>Cloud Engineer Intern </h1>
+                    <h4>Qwikskills       (Feb 2023- Jul 2023)</h4>
+                    <h3>&#x1F4CD; Remote </h3>
+                    <h3> Responsibilities:</h3>
+                    <ul style="font-size: 18px;">
+                        <li>Collaborated in building hands-on labs using Azure Services - Cognitive Services, Azure Databricks , Virtual Machine, App services.</li>
+                    <li>Enhanced the security of infrastructure by embedding custom roles, policies for minimizing the use of SKU configurations.</li>
+                    </ul>
+                </div>
+                <div class="experience-tags">
+                    <span class="tag">Microsoft Azure</span>
+                    <span class="tag">AWS</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">Machine Learning</span>
+                </div>
+            </div>
+
+        <!-- AT&T-->
+        <div class="experience-card">
+
+            <img src="images/at&tnew.png" alt="AT&T" class="company-pic" >
+                <div class="experience-content" style="color: white;">
+                    <h1>Software Engineer Intern </h1>
+                    <h4>AT&T        (Mar 2022-Sep 2022)</h4>
+                    <h3>&#x1F4CD; Hyderabad, India</h3>
+                    <h3> Responsibilities:</h3>
+                    <ul style="font-size: 18px;">
+                    <li>Built an automated system leveraging Azure Monitor to effectively track and ensure the availability of applications</li>
+                    <li>Handled delivery of JSON traces to Application Insights using Telemetry Client SDK, scheduled customized alert emails, and analyzed recorded insights through workbooks and charts.</li>
+                    <li>Developed a REST API interface for telephone ownership lookup using HMAC-SHA256, base64 for authorization, encoding respectively.</li>
+                    </ul>
+                </div>
+                <div class="experience-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Linux</span>
+                    <span class="tag">Microsoft Azure</span>
+                    <span class="tag">REST API</span>
+                </div>
+            </div>
+
+        <!--TechCiti-->
+
+
+        <div class="experience-card">
+
+            <img src="images/logo.jpeg" alt="techCiti" class="company-pic" >
+                <div class="experience-content" style="color: white;">
+                    <h1>Software Developer Intern </h1>
+                    <h4>TechCiti Technologies Private Limited </h4>
+                        <h4>(May 2020-July 2020)</h4>
+                    <h3>&#x1F4CD; India</h3>
+                    <h3> Responsibilities:</h3>
+                    <ul style="font-size: 18px;">
+                        <li> Deployed a ML Portal named “EMR Data Analysis to Predict Various diseases” using Django framework.</li>
+                        <li>Engineered the prediction of heart disease, breast cancer, diabetes using Random Forest Classifier, Logistic Regression Algorithms and attained accuracies 91%, 92.7% and 94% respectively.</li>
+                    </ul>
+                </div>
+                <div class="experience-tags">
+                    <span class="tag">Machine Learning</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">Django</span>
+                    <span class="tag">Scikit-learn</span>
+                    <span class="tag">SQLite</span>
+                    <span class="tag">Numpy</span>
+                    <span class="tag">Pandas </span>
+                </div>
+            </div>
+
+    </div>
     </section>
         
 
     <!-- skills section -->
-
+    
     <section id="skills" class="skills">
-        <div class="card">
-        <h2 style="color: white;"><u>SKILLS</u></h2>
+        <h2 style="color: white; text-align: center;"><u>SKILLS</u></h2>
         <br>
         <br>
-        <div class="container_four">
+        <div class="skills_container">
             <div class="skill-item">
                 <i class="fab fa-python"></i>
                 <p>Python</p>
             </div>
-        
             <div class="skill-item">
                 <i class="fas fa-chart-line"></i>
                 <p>R</p>
             </div>
-
             <div class="skill-item">
                 <i class="fas fa-database"></i>
                 <p>SQL</p>
@@ -218,23 +257,18 @@
                 <i class="fab fa-css3-alt"></i>
                 <p>C</p>
             </div>
-        
-
             <div class="skill-item">
                 <i class="fas fa-fire"></i>
                 <p>PyTorch</p>
             </div>
-        
             <div class="skill-item">
                 <i class="fa-solid fa-brain"></i>
                 <p>TensorFlow</p>
             </div>
-        
             <div class="skill-item">
                 <i class="fa-solid fa-face-smile"></i>
                 <p>Hugging Face</p>
             </div>
-        
             <div class="skill-item">
                 <i class="fa-solid fa-language"></i>
                 <p>NLTK</p>
@@ -243,17 +277,14 @@
                 <i class="fas fa-comments"></i>
                 <p>spaCy</p>
             </div>
-
             <div class="skill-item">
                 <i class="fa-solid fa-robot"></i>
                 <p>Scikit-learn</p>
             </div>
-        
             <div class="skill-item">
                 <i class="fa-solid fa-square-root-alt"></i>
                 <p>NumPy</p>
             </div>
-
             <div class="skill-item">
                 <i class="fa-solid fa-table"></i>
                 <p>Pandas</p>
@@ -262,14 +293,10 @@
                 <i class="fas fa-chart-area"></i>
                 <p>Matplotlib</p>
             </div>
-
-
-
             <div class="skill-item">
                 <i class="fab fa-microsoft"></i>
                 <p>Microsoft Azure</p>
             </div>
-
             <div class="skill-item">
                 <i class="fab fa-python"></i>
                 <p>Flask</p>
@@ -278,72 +305,121 @@
                 <i class="fab fa-python"></i>
                 <p>Django</p>
             </div>
-
             <div class="skill-item">
                 <i class="fab fa-linux"></i>
                 <p>Linux</p>
             </div>
         </div>
-        </div>
     </section>
+    
 
-    <!-- Projects section -->
+        
 
     <section id="projects" class="projects">
-        <div class="card">
-        <h2 style="color: white;"><u>PROJECTS</u></h2>
+        <h2 style="color: white; text-align: center; margin: 0 auto;"><u>PROJECTS</u></h2>
         <br>
-        <div class="container_five">
-            <img src="images/nlp685.webp" alt="NLP685" class="project-pic"  width="400px" height="300px">
-            <div class="description" style="color: white;">
-                <h1>Lower Sampling with Recurring Elimination Improves Self-Consistency for Chain of Thought Reasoning        (Feb 2024- Present)</h1>
-                <h3> <u>Description</u>:</h3>
-                <ul style="font-size: 18px;">
-                    <li>Implementing self-consistency for Chain of thoughts prompting by iteratively refining reasoning paths based on minimal output sampling to solve complex reasoning within NLP systems.</li>
-                    <li>Large Language Models : Mistral-7B-Instruct , Gemma-7B-it , LLaMa-2-7B</li>
-                </ul>
-            </div>
-           
-        </div> 
-        
-        <div class="container_five">
-            <img src="images/rag2.png" alt="BERT-FLAN-T5" class="project-pic"  width="400px" height="300px" >
-            <div class="description" style="color: white;">
-                <h1>Modeling the BERT–FLAN-T5 Synergy for Personalized Profile-Aware News Classification     (Sep 2023-Dec 2023)</h1>
-                <h3> <u>Description</u>:</h3>
-                <ul style="font-size: 18px;">
-                    <li>Proposed a novel RAG framework with BERT as retrieval model and a Large Language Model (LLM) named FLAN-T5 base for categorizing news articles. </li>
-                    <li>Implemented text preprocessing using NLTK and retrievals using BM25Okapi (BM25) , BertTokenizer & BertModel(BERT).</li>
-                    <li>Achieved 4 point absolute F1 score increase with BERT personalized encodings when compared to baseline BM25.</li>
-                </ul>
-            </div>
-        </div> 
-        
-        <div class="container_five">
-            <img src="images/chatbot.png" alt="chatbot" class="project-pic"  width="400px" height="300px" >
-            <div class="description" style="color: white;">
-                <h1>Covid-19 Virtual Assistant        (Feb 2022-Jun 2022)</h1>
-                <h3> <u>Description</u>:</h3>
-                <ul style="font-size: 18px;">
-                    <li>Trained an intelligent chatbot equipped with speech to text and text to speech translation features, that provides necessary information regarding Covid-19 such as preventive measures, nearby hospitals, vaccination centers etc.</li>
-                    <li>Acquired an accuracy of 87.04%  with the implementation of Deep Learning model and the principles of NLP.</li>
-                </ul>
-            </div>
-        </div> 
+        <br>
+        <!-- Project 1 -->
+        <div class="project-grid" >
+        <div class="project-card">
 
-        <div class="container_five">
-            <img src="images/webscrap2.jpeg" alt="Webscraping" class="project-pic" width="400px" height="300px" style="border-radius: 30px;">
-            <div class="description" style="color: white;">
-                <h1>Real time product analysis using Web Scraping (Oct 2021-Dec 2021)</h1>
-                <h3> <u>Description</u>:</h3>
-                <ul style="font-size: 18px;">
-                    <li> Designed a web application that enables comparison of products based on price, ratings from Amazon and Flipkart. </li>
-                    <li>Utilized Beautiful Soup (bs4) for efficient parsing of complex HTML structures into Python objects, and employed Selenium WebDriver to automate web interactions for enhanced functionality.</li>
-                </ul>
+            <img src="images/LectureMate.jpg" alt="LectureMate" class="project-pic" style="width: 90%; height: 100%; object-fit: contain">
+            <div class="project-content">
+                <div class="project-title">
+                    LectureMate
+                    <a href="https://github.com/Poojitha1509/LectureMate" class="icon" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <p class="project-description">
+                    Devised a 24/7 academic companion powered by a fine-tuned LLaMA 3.2-3B model using LoRA, for providing instant, accurate answers based on course materials and logistics.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">LLM</span>
+                    <span class="tag">Fine-Tuning</span>
+                    <span class="tag">LORA</span>
+                    <span class="tag">Natural Language Processing (NLP)</span>
+                    <span class="tag">Hugging Face</span>
+                </div>
             </div>
-        </div> 
         </div>
-    </section>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+
+            <img src="images/nlp685.webp" alt="NLP685" class="project-pic" style="width: 90%; height: 90%; object-fit: contain;">
+            <div class="project-content">
+                <div class="project-title">
+                    Lower Sampling with Recurring Elimination Improves Self Consistency
+                    <a href="https://github.com/Poojitha1509/COMPSCI-685-Project" class="icon" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <p class="project-description">
+                    Implemented a recurring elimination strategy for Chain-of-Thought reasoning tasks with GPT-2 Large, Gemma-2B, and Gemma-7B, reducing computational overhead by minimizing redundant sampling.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Prompt Engineering</span>
+                    <span class="tag">Large Language Models</span>
+                    <span class="tag">NLP</span>
+                    <span class="tag">Hugging Face</span>
+                </div>
+            </div>
+        </div>
+    
+
+         <!-- Project 3 -->
+         <div class="project-card">
+
+            <img src="images/newsnugget.png" alt="COMPSCI532" class="project-pic" style="width: 90%; height: 95%; object-fit: contain">
+            <div class="project-content">
+                <div class="project-title">
+                    NewsNugget
+                    <a href="https://github.com/Poojitha1509/NewsNugget" class="icon" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <p class="project-description">
+                    Integrated a real-time news aggregator and summarizer that categorizes, processes latest news articles and sends notifications based on user preferences.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">Node.js</span>
+                    <span class="tag">MongoDB</span>
+                    <span class="tag">Apache Kafka</span>
+                    <span class="tag">PySpark</span>
+                    <span class="tag">FLAN-T5</span>
+                    <span class="tag">Docker</span>
+                </div>
+            </div>
+        </div>
+    
+
+        <!-- Project 4 -->
+        <div class="project-card">
+
+            <img src="images/rag2.png" alt="BERT-FLAN-T5" class="project-pic" style="width: 90%; height: 90%; object-fit: contain;">
+            <div class="project-content">
+                <div class="project-title">
+                    Modeling the BERT–FLAN-T5 Synergy for Personalized News Classification
+                    <a href="https://github.com/Poojitha1509/COMPSCI-646-PROJECT" class="icon" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <p class="project-description">
+                    Proposed a RAG framework that integrates BERT for retrieval and a FLAN-T5 base for categorizing news articles and Improved F1 score by 4 points using BERT personalized encodings, outperforming the baseline BM25.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">BM-25</span>
+                    <span class="tag">BERT</span>
+                    <span class="tag">FLAN-T5</span>
+                    <span class="tag">Information Retrieval</span>
+                    <span class="tag">NLP</span>
+                </div>
+            </div>
+        </div>
+    </div>
+        </section>
+    
 
 
     <!-- Contact section -->
